@@ -1,1 +1,1 @@
-Oi
+Olá, esse é meu portfólio pessoal onde me apresento um pouco e falo de projetos e coisas minhas

@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(6, 8, 59), rgb(51, 4, 105));
+    color: white;
+}
+
+.container-geral {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    height: 125px;
+    margin-top: 15px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: purple;
+}
+
+.nav-link:hover {
+    color: #ff4081;
+    text-decoration: underline;
+}
+
+.container-conteudo {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.titulo-sobre {
+    margin-bottom: 10px;
+}
+
+#anuncio {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
